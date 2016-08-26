@@ -1,10 +1,21 @@
 cd 跳转到该目录
 ls 查看当前目录内容
 vi 查看该文件
-pwd 跳转到根目录（应该是查看当前目录） cd /  才是调到根目录
-touch+文件名 生成一个文件   mkdir+文件夹名  生成一个文件夹
+pwd 应该是查看当前目录位置
+cd / 跳转到根目录
+touch+文件名 生成一个文件
+mkdir+文件夹名 生成一个文件夹
 git add .
 git commit -m "添加一个新文件"
 git config --global user.email "你的github上的账号邮箱"
 git commit  -m  "XX"
-git push origin master
+git push origin master 上传
+git branch test 创建一个新分支
+git branch 查看当前分支
+touch XX.html 创建测试的html
+git add .  
+git commit -m "测试一个新分支"
+git push origin test 跳转到当前分支
+git checkout master 切换分支
+git fetch     
+git pull origin test 合并分支
