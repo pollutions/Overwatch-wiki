@@ -1,9 +1,10 @@
-cd Ìø×ªµ½¸ÃÄ¿Â¼
-ls ²é¿´µ±Ç°Ä¿Â¼ÄÚÈİ
-vi ²é¿´¸ÃÎÄ¼ş
-pwd Ìø×ªµ½¸ùÄ¿Â¼
-touch+ÎÄ¼şÃû Éú³ÉÒ»¸öÎÄ¼ş
+cd è·³è½¬åˆ°è¯¥ç›®å½•
+ls æŸ¥çœ‹å½“å‰ç›®å½•å†…å®¹
+vi æŸ¥çœ‹è¯¥æ–‡ä»¶
+pwd è·³è½¬åˆ°æ ¹ç›®å½•
+touch+æ–‡ä»¶å ç”Ÿæˆä¸€ä¸ªæ–‡ä»¶
 git add .
-git commit -m "Ìí¼ÓÒ»¸öĞÂÎÄ¼ş"
-git config --global user.email "ÄãµÄgithubÉÏµÄÕËºÅÓÊÏä"
-git commit  -m  "fix"
+git commit -m "æ·»åŠ ä¸€ä¸ªæ–°æ–‡ä»¶"
+git config --global user.email "ä½ çš„githubä¸Šçš„è´¦å·é‚®ç®±"
+git commit  -m  "XX"
+git push origin master
